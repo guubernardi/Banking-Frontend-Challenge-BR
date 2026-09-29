@@ -1,6 +1,30 @@
-# 🏦 Banking Frontend Challenge BR
+<div align="center">
 
-> Desafio front-end bancário em português para praticar interfaces reais de produto, inspirado em Nubank, Itaú, Inter, C6 Bank, PicPay e Mercado Pago.
+<img src=".github/assets/capa.png" alt="Banking Frontend Challenge BR: layout do banco fictício Bernardi em desktop e mobile" width="100%">
+
+# Banking Frontend Challenge BR
+
+**Desafio front-end bancário em português, com layout completo no Figma, para você construir um projeto de portfólio com cara de produto real.**
+
+Inspirado em Nubank, Itaú, Inter, C6 Bank, PicPay e Mercado Pago.
+
+[![Figma](https://img.shields.io/badge/Layout-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/eSQ2IVa6l7GrcpTSHO77RD/Banking-Frontend-Challenge-BR?node-id=0-1)
+[![Stars](https://img.shields.io/github/stars/guubernardi/Banking-Frontend-Challenge-BR?style=for-the-badge&color=2D55DC&label=Estrelas)](https://github.com/guubernardi/Banking-Frontend-Challenge-BR/stargazers)
+[![Soluções](https://img.shields.io/github/issues-search/guubernardi/Banking-Frontend-Challenge-BR?query=label%3Asolucao&style=for-the-badge&color=1E9E5A&label=Solu%C3%A7%C3%B5es%20enviadas)](https://github.com/guubernardi/Banking-Frontend-Challenge-BR/issues?q=label%3Asolucao)
+[![PRs bem-vindos](https://img.shields.io/badge/PRs-bem--vindos-193180?style=for-the-badge)](CONTRIBUTING.md)
+
+[Ver o Figma](https://www.figma.com/design/eSQ2IVa6l7GrcpTSHO77RD/Banking-Frontend-Challenge-BR?node-id=0-1) · [Enviar minha solução](https://github.com/guubernardi/Banking-Frontend-Challenge-BR/issues/new?template=enviar-solucao.yml) · [English](#-english)
+
+</div>
+
+---
+
+## 🚀 Comece em 4 passos
+
+1. **Dê uma ⭐ neste repositório** para salvar o desafio e acompanhar as novidades
+2. **Abra o [layout no Figma](https://www.figma.com/design/eSQ2IVa6l7GrcpTSHO77RD/Banking-Frontend-Challenge-BR?node-id=0-1)** e explore as telas, os componentes e o protótipo navegável
+3. **Construa** com a stack que quiser, seguindo os requisitos abaixo
+4. **[Envie sua solução](https://github.com/guubernardi/Banking-Frontend-Challenge-BR/issues/new?template=enviar-solucao.yml)** e apareça no [mural da comunidade](#-mural-da-comunidade)
 
 ---
 
@@ -9,6 +33,23 @@
 O **Banking Frontend Challenge BR** é um desafio técnico de front-end criado para desenvolvedores brasileiros que querem construir um projeto de portfólio sólido e próximo de um produto real.
 
 A proposta vai além de uma tela bonita: você vai simular fluxos completos de um app bancário/fintech, lidando com estados reais de interface, acessibilidade, responsividade e componentização.
+
+---
+
+## 🖼️ O que você vai construir
+
+<img src=".github/assets/desktop.png" alt="Tela Home no desktop: cartões, atalhos, saldo e últimas transações" width="100%">
+
+<img src=".github/assets/mobile.png" alt="Telas mobile: Home, Área Pix, valor do Pix e comprovante" width="100%">
+
+O Figma traz **28 telas** (14 desktop e 14 mobile), um **design system** com tokens e componentes e um **protótipo navegável**:
+
+| Área | Telas |
+|---|---|
+| **Acesso** | Login |
+| **Início** | Home, Extrato, Perfil |
+| **Pix** | Área Pix, Valor, Confirmação, Comprovante, Gerar QR Code, Minhas chaves |
+| **Ações** | Pagar boleto, Depositar, Cartões, Confirmar bloqueio do cartão |
 
 ---
 
@@ -21,6 +62,18 @@ A proposta vai além de uma tela bonita: você vai simular fluxos completos de u
 
 ---
 
+## 🧭 Escolha seu nível
+
+Não precisa fazer tudo de uma vez. Comece pelo seu nível e vá subindo.
+
+| Nível | O que entregar |
+|---|---|
+| 🟢 **Iniciante** | Login, Home e Extrato, responsivos, com dados mockados em JSON |
+| 🟡 **Intermediário** | Tudo do iniciante + fluxo Pix completo (valor, confirmação, comprovante) com estados de loading, erro e vazio |
+| 🔴 **Avançado** | Todas as telas + requisitos bônus, testes, acessibilidade WCAG AA e deploy |
+
+---
+
 ## 🖥️ Telas e fluxos esperados
 
 | Tela | Descrição |
@@ -29,7 +82,7 @@ A proposta vai além de uma tela bonita: você vai simular fluxos completos de u
 | **Dashboard** | Saldo, atalhos, resumo do cartão, últimas transações |
 | **Extrato** | Listagem, filtros por período, busca, agrupamento |
 | **Comprovante** | Dados da transação, status, compartilhar/baixar |
-| **Pix** | Fluxo completo: chave → valor → revisão → confirmação → sucesso/erro |
+| **Pix** | Fluxo completo: chave, valor, revisão, confirmação e sucesso/erro |
 
 ---
 
@@ -149,16 +202,31 @@ A escolha da stack é **livre**. Algumas sugestões:
 
 ## 🎨 Layout de referência (Figma)
 
-> 🔗 **[Acessar o Figma →](https://www.figma.com/design/eSQ2IVa6l7GrcpTSHO77RD/Banking-Frontend-Challenge-BR?node-id=0-1&t=WvWn9pyp8MF6oC1r-1)**
+> 🔗 **[Acessar o Figma →](https://www.figma.com/design/eSQ2IVa6l7GrcpTSHO77RD/Banking-Frontend-Challenge-BR?node-id=0-1)**
 
-O Figma funciona como **guia de estrutura e fluxo**, não como cópia obrigatória.
+O arquivo tem três páginas:
 
-Soluções autorais são bem-vindas, desde que respeitem os fluxos principais e a proposta bancária do desafio.
+- **Capa:** visão geral do projeto
+- **Telas:** 14 telas desktop e 14 mobile, separadas em seções (principais, fluxo Pix e ações), com protótipo navegável (use o botão ▶ Present)
+- **Componentes:** design system com cores, raios e espaçamentos em variáveis, estilos de texto, ícones e componentes (botão, campo, cartão, item de transação, sidebar, tab bar e mais)
+
+O Figma funciona como **guia de estrutura e fluxo**, não como cópia obrigatória. Soluções autorais são bem-vindas, desde que respeitem os fluxos principais e a proposta bancária do desafio.
 
 **Tamanhos de frame utilizados:**
 - Mobile: `390 × 844`
-- Tablet: `768 × 1024`
-- Desktop: `1440 × 1024`
+- Desktop: `1728 × 1117`
+- Tablet: livre, adapte a partir do mobile e do desktop
+
+**Tokens principais:**
+
+| Token | Valor |
+|---|---|
+| Primária | `#2D55DC` |
+| Primária escura | `#193180` |
+| Fundo | `#F3F3F3` |
+| Texto suave | `#8C8686` |
+| Sucesso / Perigo | `#1E9E5A` / `#D93636` |
+| Fontes | Figtree (interface) e Fjalla One (números do cartão) |
 
 ---
 
@@ -166,7 +234,7 @@ Soluções autorais são bem-vindas, desde que respeitem os fluxos principais e 
 
 O projeto deve ser desenvolvido com abordagem **mobile-first**, mas precisa funcionar bem em todas as telas.
 
-A versão desktop **não deve ser apenas uma ampliação do mobile** — deve ser uma adaptação coerente ao espaço disponível:
+A versão desktop **não deve ser apenas uma ampliação do mobile**, e sim uma adaptação coerente ao espaço disponível:
 
 | Dispositivo | Adaptação esperada |
 |---|---|
@@ -195,7 +263,20 @@ Projetos que se destacam normalmente apresentam:
 1. Suba o código no **GitHub** com README organizado
 2. Adicione **prints ou GIFs** das principais telas
 3. Faça o **deploy** em Vercel, Netlify ou similar
-4. Adicione o link do repositório nos tópicos do GitHub
+4. Adicione o tópico `banking-frontend-challenge-br` no seu repositório
+5. **[Envie sua solução](https://github.com/guubernardi/Banking-Frontend-Challenge-BR/issues/new?template=enviar-solucao.yml)** para entrar no mural
+
+---
+
+## 🌟 Mural da comunidade
+
+Soluções enviadas pela comunidade. Quer aparecer aqui? [Envie a sua](https://github.com/guubernardi/Banking-Frontend-Challenge-BR/issues/new?template=enviar-solucao.yml).
+
+| Dev | Stack | Repositório | Deploy |
+|---|---|---|---|
+| *Seja a primeira pessoa a aparecer aqui* 👀 | | | |
+
+Você também pode ver todas as soluções pelo tópico [`banking-frontend-challenge-br`](https://github.com/topics/banking-frontend-challenge-br).
 
 ---
 
@@ -212,12 +293,24 @@ Esse desafio demonstra que você sabe:
 
 ---
 
+## 🤝 Contribuindo
+
+Ideias de novas telas, melhorias no README, correções no layout e traduções são bem-vindas. Veja o [guia de contribuição](CONTRIBUTING.md).
+
+---
+
+## 🇺🇸 English
+
+**Banking Frontend Challenge BR** is a free front-end challenge inspired by Brazilian digital banks (Nubank, Itaú, Inter, C6 Bank, PicPay, Mercado Pago). It ships with a complete [Figma layout](https://www.figma.com/design/eSQ2IVa6l7GrcpTSHO77RD/Banking-Frontend-Challenge-BR?node-id=0-1): 28 screens (desktop and mobile), a design system with tokens and components, and a clickable prototype. Build it with any stack, cover loading/error/empty states, accessibility and responsiveness, then [submit your solution](https://github.com/guubernardi/Banking-Frontend-Challenge-BR/issues/new?template=enviar-solucao.yml) to be featured. The content is in Portuguese, but the flows (login, dashboard, statement, Pix instant payments, bill payment, cards) are universal.
+
+---
+
 ## ⚠️ Aviso legal
 
 Este projeto é um desafio educacional e conceitual.
 Não possui vínculo oficial com Itaú, Nubank, Inter, C6 Bank, PicPay, Mercado Pago ou qualquer outra instituição financeira.
 
-Recomendamos fortemente que você crie sua própria marca: invente um nome de banco, crie um logo, defina uma paleta de cores e construa uma identidade visual autoral. Esse desafio não é só sobre código — é sobre pensar como um engenheiro de software que entende de produto. Quem vai além do técnico e demonstra visão de produto se destaca no mercado.
+Recomendamos fortemente que você crie sua própria marca: invente um nome de banco, crie um logo, defina uma paleta de cores e construa uma identidade visual autoral. Esse desafio não é só sobre código, é sobre pensar como um engenheiro de software que entende de produto. Quem vai além do técnico e demonstra visão de produto se destaca no mercado.
 
 ---
 
@@ -229,9 +322,9 @@ Livre para uso **educacional e de portfólio**.
 
 ## ✍️ Autor
 
-Criado por **Gustavo Bernardi - @guubernardi**
+Criado por **Gustavo Bernardi, [@guubernardi](https://github.com/guubernardi)**
 
-Se esse desafio te ajudou, deixa uma ⭐ no repositório — isso ajuda mais devs a encontrarem o projeto.
+Se esse desafio te ajudou, deixa uma ⭐ no repositório. Isso ajuda mais devs a encontrarem o projeto.
 
 ---
 

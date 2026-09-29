@@ -1,0 +1,50 @@
+name: 🌟 Enviar minha solução
+description: Mostre o que você construiu e entre no mural da comunidade
+title: "[Solução] "
+labels: ["solucao"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Que legal que você fez o desafio! Preencha os dados abaixo e sua solução entra no **mural da comunidade** do README.
+  - type: input
+    id: repositorio
+    attributes:
+      label: Link do repositório
+      placeholder: https://github.com/seu-usuario/seu-banco
+    validations:
+      required: true
+  - type: input
+    id: deploy
+    attributes:
+      label: Link do deploy
+      placeholder: https://seu-banco.vercel.app
+    validations:
+      required: false
+  - type: input
+    id: stack
+    attributes:
+      label: Stack utilizada
+      placeholder: Vue + Nuxt + Sass
+    validations:
+      required: true
+  - type: dropdown
+    id: nivel
+    attributes:
+      label: Nível entregue
+      options:
+        - 🟢 Iniciante
+        - 🟡 Intermediário
+        - 🔴 Avançado
+    validations:
+      required: true
+  - type: textarea
+    id: destaques
+    attributes:
+      label: Do que você mais se orgulha nessa solução?
+      description: Um detalhe de UX, uma animação, a acessibilidade, a organização do código...
+  - type: textarea
+    id: prints
+    attributes:
+      label: Prints ou GIFs
+      description: Arraste as imagens aqui.
